@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+html,
+body {
+    font-family: 'roboto', sans-serif !important;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale !important;
+}
+
+.signup-section {
+    box-shadow: 0px 1px 19px -5px #00000026;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.signup-label {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #230e0e;
+    margin-bottom: 4px;
+}
+
+.signup-input {
+    width: 100%;
+    outline: none;
+    padding: 10px 14px;
+    border: 0.5px solid #C0C2C3;
+    border-radius: 5px;
+    color: #2E2D2D;
+    caret-color: red;
+    background: #fff;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 400;
+}
+
+label.error {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #EE3424;
+    position: absolute;
+    white-space: nowrap;
+    left: 0;
+    bottom: -20px;
+}
+
+.submit-button {
+    font:18px;
+    line-height: 22px;
+    font-weight: 500;
+    padding: 8px 12px;
+    min-width: 120px;
+}
+
+.details-card {
+    border: 0.5px solid #C0C2C3;
+    border-radius: 5px;
+    padding: 12px;
+}
