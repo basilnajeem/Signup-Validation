@@ -55,9 +55,3 @@ label.error {
     padding: 8px 12px;
     min-width: 120px;
 }
-
-.details-card {
-    border: 0.5px solid #C0C2C3;
-    border-radius: 5px;
-    padding: 12px;
-}
